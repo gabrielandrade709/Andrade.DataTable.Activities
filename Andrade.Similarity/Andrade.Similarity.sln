@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Andrade.Similarity", "Andrade.Similarity", "{66DABB7E-1E8B-42C4-8A90-1423578088A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Andrade.Similarity", "Andrade.Similarity\Andrade.Similarity\Andrade.Similarity.csproj", "{7865AB56-CAD2-42DA-8F92-7EC9F3C6CA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Andrade.Similarity.Activities", "Andrade.Similarity\Andrade.Similarity.Activities\Andrade.Similarity.Activities.csproj", "{79BC373C-37FB-4639-AE38-CE7F580B5304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Andrade.Similarity.Activities.Design", "Andrade.Similarity\Andrade.Similarity.Activities.Design\Andrade.Similarity.Activities.Design.csproj", "{A12B7B75-5F5A-4840-A770-CC63278F25F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{3A4549CC-62A5-4F23-9ADB-D013E07A46F4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{79bc373c-37fb-4639-ae38-ce7f580b5304}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{a12b7b75-5f5a-4840-a770-cc63278f25f3}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7865AB56-CAD2-42DA-8F92-7EC9F3C6CA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7865AB56-CAD2-42DA-8F92-7EC9F3C6CA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7865AB56-CAD2-42DA-8F92-7EC9F3C6CA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7865AB56-CAD2-42DA-8F92-7EC9F3C6CA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BC373C-37FB-4639-AE38-CE7F580B5304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BC373C-37FB-4639-AE38-CE7F580B5304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BC373C-37FB-4639-AE38-CE7F580B5304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BC373C-37FB-4639-AE38-CE7F580B5304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12B7B75-5F5A-4840-A770-CC63278F25F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12B7B75-5F5A-4840-A770-CC63278F25F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12B7B75-5F5A-4840-A770-CC63278F25F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12B7B75-5F5A-4840-A770-CC63278F25F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7865AB56-CAD2-42DA-8F92-7EC9F3C6CA42} = {66DABB7E-1E8B-42C4-8A90-1423578088A4}
+		{79BC373C-37FB-4639-AE38-CE7F580B5304} = {66DABB7E-1E8B-42C4-8A90-1423578088A4}
+		{A12B7B75-5F5A-4840-A770-CC63278F25F3} = {66DABB7E-1E8B-42C4-8A90-1423578088A4}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {3A4549CC-62A5-4F23-9ADB-D013E07A46F4}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {3A4549CC-62A5-4F23-9ADB-D013E07A46F4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31409DE5-F793-44CA-B605-F79AA41B3D33}
+	EndGlobalSection
+EndGlobal
