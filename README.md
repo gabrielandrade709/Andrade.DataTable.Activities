@@ -1,4 +1,4 @@
-# UiPath Activity: Similarity between terms in a Data table
+# UiPath Activity: Similarity between terms in a Data Table
 Activity from UiPath that can be able to look for similarity between terms in a Data Table.
 
 ## Required parameters to be filled
