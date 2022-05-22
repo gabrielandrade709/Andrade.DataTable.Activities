@@ -15,7 +15,7 @@
     <Copyright>© 2022 Gabriel Andrade</Copyright>
     <PackageTags>UiPath Activit𝗒 DataTable Similarity</PackageTags>
     <PackageProjectUrl>https://docs.uipath.com/integrations/docs/how-to-create-activities</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/NuGet/Samples/master/PackageIconNuspecExample/icon.png</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
     <!--<PackageIcon>packageIcon.png</PackageIcon>--> <!--PackageIcon not yet supported in UiPath Studio-->
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
@@ -31,6 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Designers\SimilarityBetweenTermsInADataTableDesigner.xaml" />
+    <None Include="..\..\..\..\Andrade.Telegram.Activities\Src\Andrade logo.jpeg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="..\..\..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -60,6 +64,7 @@
     <Product>Similarity between terms in a Data Table</Product>
     <RepositoryUrl>https://github.com/gabrielandrade709/Andrade.Similarity.Activities</RepositoryUrl>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>Andrade logo.jpeg</PackageIcon>
   </PropertyGroup>
 	<ItemGroup>
 		<Reference Include="System" />
