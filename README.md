@@ -1,7 +1,21 @@
 # UiPath Activity: Similarity between terms in a Data Table
+
+## Summary
+1. [Package in UiPath](#PackageInUiPath)
+2. [Required parameters to be filled](#RequiredParametersToBeFilled)
+3. [Optional parameters](#OptionalParameters)
+
+---
+
 Activity from UiPath that can be able to look for similarity between terms in a Data Table.
 
-## Required parameters to be filled
+
+## Package in UiPath <a name="PackageInUiPath"></a>
+
+![image](https://user-images.githubusercontent.com/17112000/169679939-8b7784d4-0b33-4650-812f-16c63b0026d8.png)
+
+
+## Required parameters to be filled <a name="RequiredParametersToBeFilled"></a>
 
 You'll need to fill the following fields:
 
@@ -20,7 +34,7 @@ You'll need to fill the following fields:
 ![image](https://user-images.githubusercontent.com/17112000/168869284-0d3bf020-626b-4e23-900d-675856c85f5e.png)
 
 
-## Optional parameters
+## Optional parameters <a name="OptionalParameters"></a>
 
 **Found similarity**: similarity that was found;
 
